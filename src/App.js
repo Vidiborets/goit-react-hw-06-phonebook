@@ -6,26 +6,19 @@ import Section from './components/Section'
 import ContactStats from './components/ContactStats'
 import s from './App.module.scss'
 
-
-
-
-
-
-
-
 export default function App() {
 
     return (
-        <Container>
-            <Section>
-                <h1 className={s.title}>Телефонная книга</h1>
-                <ContactForm />
-                <h1 className={s.titleContact}>Контакты</h1>
-                <ContactFilter />
-                <ContactList />
-                <ContactStats/>
-            </Section>
-        </Container>
+            <Container>
+                <Section>
+                    <h1 className={s.title}>Телефонная книга</h1>
+                    <ContactForm />
+                    <h1 className={s.titleContact}>Контакты</h1>
+                    <ContactFilter />
+                    <ContactList />
+                    <ContactStats/>
+                </Section>
+            </Container>
     );
     };
 
